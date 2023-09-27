@@ -41,11 +41,19 @@ aside {
     background-color: grey;
     color: rgb(18, 28, 2);
     text-align: center;
+    position: relative;
 }
 aside img {
     width: 200px;
     height: auto;
 }
+
+aside h2 {
+    position: absolute;
+    top: 30px;
+    left: 125px; 
+}
+
 footer {
     margin-top: 1em;
     border-top: 1px solid #000;
