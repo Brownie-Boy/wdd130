@@ -1,0 +1,88 @@
+@import url(https://fonts.google.com/specimen/Mooli);
+
+:root {
+    --main-bg-color: #fffcfc; 
+    --main-text-color: #000000; 
+    --accent-color: #023047; 
+}
+
+body {
+    font-family: 'Mooli', sans-serif;
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    margin: 0;
+    padding: 0;
+    box-align: center;
+}
+
+header {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    padding: 10px 0;
+}
+
+
+
+main {
+    max-width: 1200px; 
+    margin: 0 auto; 
+    padding: 20px;
+}
+
+.hero {
+    position: relative;
+    color:rgb(0, 0, 0);
+    
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 2rem;
+    text-align: center;
+}
+
+
+article {
+    max-width: 300px;
+    position: absolute;
+    top: 10%; 
+    left: 80%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7); 
+    padding: 20px;
+    text-align: center;
+    color: var(--main-bg-color);
+}
+
+article img {
+    float: right; 
+    margin-left: 20px; 
+}
+
+
+footer {
+    background-color: var(--accent-color);
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
+.sociallinks a {
+    text-decoration: none;
+}
+
+
+
+
+
