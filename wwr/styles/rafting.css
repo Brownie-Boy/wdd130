@@ -201,14 +201,14 @@ section#contact-form button[type="submit"] {
 }
 
 .trip img {
-    max-width: 100%; /* Ensure the image doesn't exceed its container */
-    height: auto; /* Maintain the aspect ratio */
+    max-width: 100%; 
+    height: auto; 
 }
 
 .trip-schedule {
-    background-color: var(rgb(255, 255, 255)); /* Use your desired background color */
+    background-color: var(rgb(255, 255, 255)); 
     padding: 20px;
-    color: #000000; /* Text color for better contrast */
+    color: #000000; 
   }
   
   .trip-schedule h2 {
@@ -226,7 +226,7 @@ section#contact-form button[type="submit"] {
   .trip-schedule th, .trip-schedule td {
     text-align: left;
     padding: 8px 16px;
-    border: 1px solid #03101b; /* Use white as border color */
+    border: 1px solid #03101b; 
   }
 
   .trip-container {
@@ -246,7 +246,6 @@ section#contact-form button[type="submit"] {
     background-color: #f9f9f9;
 }
 
-/* Adjust existing CSS */
 .trip img {
     max-width: 100%;
 }
@@ -265,6 +264,137 @@ section#contact-form button[type="submit"] {
     background-color: var(--primary-color);
 }
 
+.hero {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    position: relative; 
+}
 
+.hero img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.hero-content {
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    text-align: center;
+    padding: 20px;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    color: yellow; 
+    margin: 0; 
+}
+
+.cta-button {
+    background-color: var(--primary-color);
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 20px;
+}
+  
+ 
+  .newsletter {
+    text-align: center; 
+  }
+  
+  .newsletter h2 {
+    color: var(--primary-color); 
+    font-size: 24px; 
+    margin: 20px 0; 
+  }
+  
+  .newsletter form {
+    display: flex; 
+    justify-content: center;
+  }
+  
+  .newsletter input[type="text"],
+  .newsletter input[type="email"] {
+    padding: 10px; 
+    margin: 5px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+  
+  .newsletter button {
+    padding: 10px 20px;
+    background-color: var(--primary-color); 
+    color: #fff; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 16px; 
+    cursor: pointer; 
+  }
+  
+  .cta {
+    background-color: var(--secondary-color); 
+    text-align: center; 
+    padding: 20px; 
+    margin: 20px 0; 
+    border-radius: 10px; 
+  }
+  
+  .cta h2 {
+    color: var(--accent1-color); 
+    font-size: 24px; 
+    margin: 20px 0; 
+  }
+  
+  .cta p {
+    font-size: 18px; 
+    margin: 20px 0; 
+  }
+  
+  .cta a {
+    background-color: var(--primary-color); 
+    color: darkmagenta; 
+    text-decoration: none; 
+    font-size: 16px; 
+    border-radius: 5px; 
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    gap: 20px;
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .grid-item {
+    background-color: #f5f5f5;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+  }
+  
+  .grid-item img {
+    max-width: 100%; 
+    border: 3px solid var(--primary-color); 
+    border-radius: 10px;
+  }
+  
+  .grid-item h3 {
+    color: var(--primary-color);
+    font-size: 24px;
+    margin: 20px 0;
+  }
+  
+  .grid-item p {
+    font-size: 16px;
+    margin: 10px 0;
+  } 
 
 
