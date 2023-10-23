@@ -329,7 +329,7 @@ section#contact-form button[type="submit"] {
   .newsletter button {
     padding: 10px 20px;
     background-color: var(--primary-color); 
-    color: #fff; 
+    color: magenta; 
     border: none; 
     border-radius: 5px; 
     font-size: 16px; 
